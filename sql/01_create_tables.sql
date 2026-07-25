@@ -17,6 +17,7 @@ CREATE TABLE db_travelers(
 CREATE TABLE db_trips(
 	trip_id INT IDENTITY(1,1) PRIMARY KEY,
 	traveler_id INT,
+    original_trip_id INT,
 	destination VARCHAR (100),
 	start_date DATE,
 	end_date DATE,
