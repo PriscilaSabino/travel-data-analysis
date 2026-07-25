@@ -1,36 +1,42 @@
-# travel-data-analysis
-SQL project for analyzing travel data using a public Kaggle dataset. This project will evolve with Python, Excel, and Power BI analyses.
+# ✈️ Travel Data Analysis (Análise de Dados de Viagens)
 
-# ✈️ Travel Data Analysis
-
-## 📖 About the project
-
-This project analyzes travel data from a public Kaggle dataset using SQL Server.
-
-The goal is to practice database modeling, data cleaning, SQL queries, and business analysis. Over time, the project will evolve to include Python, Excel, and Power BI.
+[![Status: In Development](https://img.shields.io/badge/Status-In_Development-yellow)](#)
 
 ---
 
-## 🎯 Objectives
+### 📖 Sobre o Projeto
+Projeto de análise de dados de viagens baseado em um dataset do Kaggle. O objetivo principal é praticar **modelagem relacional**, **higienização de dados (ETL)** e **consultas SQL analíticas** no SQL Server. 
 
-- Practice SQL with a real dataset
-- Apply database normalization concepts
-- Answer business questions using SQL
-- Build a professional data analytics portfolio
+> *Futuramente, o projeto será expandido com análises em Excel, Python e dashboards no Power BI.*
+
+### 🛠️ Tecnologias
+* **SGBD:** SQL Server
+* **Linguagem:** T-SQL (DDL, DML, Cast/Cleaning)
+* **Dataset:** [Kaggle](https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data)
+
+### 📌 Etapas do Projeto
+- [x] **Modelagem & Normalização:** Criação da estrutura relacional (chaves PK/FK e auto-incremento).
+- [x] **ETL & Limpeza de Dados:** Sanitização de textos (`NVARCHAR`) e conversão para tipos numéricos (`DECIMAL`).
+- [ ] **Análise de Negócio:** Queries analíticas (`GROUP BY`, `JOINs`, agregações).
+- [ ] **Visualização:** Integração futura com Excel e Power BI.
 
 ---
 
-## 🛠 Technologies
+### 📖 About
+A travel data analysis project based on a Kaggle dataset. The main goal is to practice **relational modeling**, **data cleaning (ETL)**, and **analytical SQL queries** using SQL Server.
 
-- SQL Server
-- SQL
+> *In the future, this project will be expanded with analyses in Excel, Python, and Power BI dashboards.*
 
----
+### 🛠️ Tech Stack
+* **DBMS:** SQL Server
+* **Language:** T-SQL (DDL, DML, Cast/Cleaning)
+* **Dataset:** [Kaggle](https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data)
 
-## 📂 Dataset
-
-Source: Kaggle (link will be added)
-
+### 📌 Project Roadmap
+- [x] **Modeling & Normalization:** Relational schema design (PK/FK constraints and auto-increment).
+- [x] **ETL & Data Cleaning:** Text sanitization (`NVARCHAR`) and conversion to numeric types (`DECIMAL`).
+- [ ] **Business Analysis:** Analytical SQL queries (`GROUP BY`, `JOINs`, aggregations).
+- [ ] **Visualization:** Future integration with Excel and Power BI.
 ---
 
 ## 🚧 Project Status
