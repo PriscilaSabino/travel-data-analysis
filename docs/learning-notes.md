@@ -1,16 +1,15 @@
-## Dia 1
 
-Problema:
+## Problema 1:
 
 A coluna Transportation_cost e Accommodation_cost vieram como texto. Deu um erro na hora de transferir os arquivos para a tabela nova.
 
-Solução:
+**Solução:**
 
 Usei REPLACE para remover "USD", "," e "$".
 Usei TRIM para remover espaços.
 Usei TRY_CAST para converter para DECIMAL.
 
-Aprendizados:
+**Aprendizados:**
 
 - TRIM remove espaços.
 - REPLACE substitui caracteres.
@@ -21,9 +20,7 @@ Aprendizados:
 
 `TRIM` • `REPLACE` • `CAST` • `TRY_CAST` • `Normalização`
 
-## Dia 2
-
-**Problema:**
+## Problema 2:
 
 Após normalizar o banco de dados, a coluna `traveler_id` da tabela `db_trips` ficou com todos os valores `NULL`.
 
@@ -45,9 +42,7 @@ Após normalizar o banco de dados, a coluna `traveler_id` da tabela `db_trips` f
 
 `INNER JOIN` • `PRIMARY KEY` • `FOREIGN KEY` • `IDENTITY` • `Normalização`
 
-## Dia 3
-
-**Problema:**
+## Problema 3: 
 
 Ao inserir os dados na tabela `db_expenses`, apenas 46 de 139 registros foram importados.
 
@@ -62,3 +57,13 @@ Ao inserir os dados na tabela `db_expenses`, apenas 46 de 139 registros foram im
 - Nem sempre é uma boa ideia descartar o identificador da base de origem durante a normalização.
 - Manter uma chave da origem pode simplificar processos de ETL e importação de dados.
 - A modelagem do banco influencia diretamente a facilidade de realizar `JOIN`s e manter a integridade dos dados.
+
+
+## Problema 4:
+
+Ao fazer a consulta sobre quais destinos foram os mais visitados, percebi que os nomes dos destinos não estavam padronizados e acabaram fragmentando a quantidade de viagens em nomes diferentes.
+
+**Solução:**
+ - Usei `SELECT` ordenando por destino para identificar quais precisavam ser alterados.
+ - Escolhi o padrão Cidade, País.
+ - Usei o ``UPDATE``, ``SET`` e ``WHERE`` para corrigir as variações.
