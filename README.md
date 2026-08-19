@@ -17,7 +17,7 @@ Projeto de análise de dados de viagens baseado em um dataset do Kaggle. O objet
 ### 📌 Etapas do Projeto
 - [x] **Modelagem & Normalização:** Criação da estrutura relacional (chaves PK/FK e auto-incremento).
 - [x] **ETL & Limpeza de Dados:** Sanitização de textos (`NVARCHAR`) e conversão para tipos numéricos (`DECIMAL`).
-- [ ] **Análise de Negócio:** Queries analíticas (`GROUP BY`, `JOINs`, agregações).
+- [x] **Análise de Negócio:** Queries analíticas (`GROUP BY`, `JOINs`, agregações).
 - [ ] **Visualização:** Integração futura com Excel e Power BI.
 
 ---
@@ -35,7 +35,7 @@ A travel data analysis project based on a Kaggle dataset. The main goal is to pr
 ### 📌 Project Roadmap
 - [x] **Modeling & Normalization:** Relational schema design (PK/FK constraints and auto-increment).
 - [x] **ETL & Data Cleaning:** Text sanitization (`NVARCHAR`) and conversion to numeric types (`DECIMAL`).
-- [ ] **Business Analysis:** Analytical SQL queries (`GROUP BY`, `JOINs`, aggregations).
+- [x] **Business Analysis:** Analytical SQL queries (`GROUP BY`, `JOINs`, aggregations).
 - [ ] **Visualization:** Future integration with Excel and Power BI.
 ---
 
