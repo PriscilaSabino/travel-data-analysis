@@ -16,7 +16,7 @@ O resultado indica que Paris apresenta maior frequência de viagens entre os des
 | :--- | ---: |
 | Auckland, New Zealand  | $9,500 |
 | Vancouver, Canada | $4,275 |
-| Honolulu, Hawaii | $4,200 |
+| Tokyo, Japan | $2,057 |
 
 **Insight:**
 Auckland apresentou o maior custo médio entre os destinos analisados.
@@ -49,11 +49,11 @@ As viagens para Atenas e Tokyo tiveram duração média superior às demais loca
 
 | Faixa etária | Viagens | Custo médio | Duração média | 
 | :--- | :---: | :---: | ---:|
-| 30–44 | 69 | $3,497 | 7 |
-| 18–29 | 54 | $2,604 | 7 |
-| 45–59 | 13 | $2,457 | 7 |
-| 60+ | 1 | $2,054 | 7 |
+| 25-39 | 103 | $3,497 | 8 |
+| 40-59 | 27 | $2,604 | 8 |
+| 18-24 | 6 | $2,457 | 8 |
+| 60+ | 1 | $2,054 | 8 |
 
 **Insight:**
-A faixa de 30-44 apresentou o maior custo. Todas as faixas tiveram a mesma média das viagens.
+A faixa de 25-39 apresentou o maior custo e a maior quantidade de viagens. Todas as faixas tiveram a mesma média de duração.
 Os resultados sugerem diferenças no comportamento de viagem entre as faixas etárias.
